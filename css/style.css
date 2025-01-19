@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#home{
+    background-image: url(../img/france.svg);
+    background-size: cover;
+    height: 100vh;
+}
+.layer{
+    height: 100%;
+    background-color: rgba(49, 153, 171, 0.575);
+}
+
+.icon-img{
+    width: 60px;
+}
+.degree h2{
+font-size: 40px;
+}
+.day , .nextday{
+    height: 350px;
+}
+.day{
+    background-color: #3199AB;
+    border-radius: 5px ;
+}
+.text{
+    color: #bfc1c8;
+    padding: 10px 25px;
+    background-color: #374850;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.nextday{
+    background-color: #83bbc4;
+    border-radius: 5px ;
+    transition: all 1s;
+}
+.nextday:hover{
+    background-color: #3199AB;
+}
+.comment{
+    color: #455a64;
+    text-shadow: 0 0 1px #455a64, 0 0 1px #455a64;
+}
